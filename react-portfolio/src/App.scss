@@ -3,8 +3,8 @@ $primary-color: #ffd700;
 @import 'animate.css';
 
 @font-face {
-  font-family: 'Helvatica Neue';
-  src: url(./assets/fonts/HelveticaNeue.ttf) format('ttf'); 
+  font-family: 'Helvetica Neu';
+  src: url(./assets/fonts/helvetica-neu.ttf) format('ttf'); 
 }
 
 @font-face {
@@ -14,9 +14,9 @@ $primary-color: #ffd700;
 
 @font-face {
   font-family: 'Coolvetica';
-  src: url(./assets/fonts/Coolvetica.woff2) format('woff2'); 
+  src: url(./assets/fonts/CoolveticaRg-Regular.woff2) format('woff2'); 
 }
 
 input, textarea {
-  font-family: 'Helvatica Neue';
+  font-family: 'Helvetica Neu';
 }
