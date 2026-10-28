@@ -1,12 +1,13 @@
 import './index.scss';
-import LogoP from '../../assets/images/logo-s.png';
+import LogoP from '../../assets/images/logo-p.png';
 import { Link, NavLink } from 'react-router-dom';
 import logoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faSkype, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-const Sidebar = () => (
+const Sidebar = () => {
+    return (
     <div className="nav-bar">
         <Link className="logo" to="/">
             <img src={LogoP} alt="Logo" />
@@ -46,6 +47,7 @@ const Sidebar = () => (
             </li>
         </ul>
     </div>
-)
+    )
+}
 
 export default Sidebar;
