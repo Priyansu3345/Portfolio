@@ -11,7 +11,7 @@ const Sidebar = () => {
     <div className="nav-bar">
         <Link className="logo" to="/">
             <img src={LogoP} alt="Logo" />
-            <img className="sub-logo" src={logoSubtitle} alt="Logo Subtitle" />
+            {/* <img className="sub-logo" src={logoSubtitle} alt="Logo Subtitle" /> */}
         </Link>
         <nav>
             <NavLink exact = "true" activeclassname="active" to="/">
@@ -26,22 +26,22 @@ const Sidebar = () => {
         </nav>
         <ul>
             <li>
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/steven-lee-2b0a1b1b6/">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/priyansu-nayak/">
                     <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/steven-lee-2b0a1b1b6/">
+                <a target="_blank" rel="noreferrer" href="https://github.com/Priyansu3345">
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/steven-lee-2b0a1b1b6/">
+                <a target="_blank" rel="noreferrer" href="https://www.youtube.com/">
                     <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
                 </a>
             </li>
             <li>
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/steven-lee-2b0a1b1b6/">
+                <a target="_blank" rel="noreferrer" href="https://www.microsoft.com/en-in/microsoft-teams/log-in">
                     <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
                 </a>
             </li>

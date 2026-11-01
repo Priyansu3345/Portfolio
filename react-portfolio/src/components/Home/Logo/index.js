@@ -17,11 +17,11 @@ const Logo = () => {
       gsap.timeline()
       .to(bgRef.current, {
         duration: 1,
-        opacity:1
+        opacity:1,
       })
       .from(outlineLogoRef.current, {
         drawSVG: 0,
-        duration: 20,
+        // duration: 5,
       })
 
       gsap.fromTo(
@@ -59,7 +59,7 @@ const Logo = () => {
     />
   </g>
 </svg>
-        </div>
+</div>
     )
 
 }
